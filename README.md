@@ -128,6 +128,9 @@ Os DEV Challenges distribuem prêmios em dinheiro (cash prizes), créditos na nu
 
 Este repositório inclui um website completo em português com o tema visual oficial do Hacktoberfest 2026:
 - 🎨 **Estética Brutalista Retro-Moderna Oficial:** Paleta com Forest Green (`#3D5F58`), Deep Forest (`#2E4742`), Ink (`#10201D`), Paper (`#F2F2EB`), Sky (`#8BB2DE`), Orange (`#E53927`) e sombras offset com bordas sólidas.
+- 🖼️ **Thumbnail Oficial de Compartilhamento (Open Graph):** Card em alta resolução (`1280x720`) otimizado para pré-visualizações ricas no WhatsApp, Twitter/X, Discord, Telegram e LinkedIn (`assets/og-thumb.jpg`).
+- 🚀 **SEO de Alta Performance & Schema.org JSON-LD:** Metadados estruturados para o Google com schemas de `Event`, `WebSite` e `FAQPage` para indexação com Rich Snippets.
+- 📱 **100% Responsivo:** Otimizado para smartphones de qualquer resolução, tablets e monitores ultrawide.
 - ⏱️ **Contador Regressivo Dinâmico** para o mês de outubro.
 - 🏷️ **Simulador Interativo do Sticker Book:** Permite simular o carimbo dos 24 adesivos e ver a barra de progresso do swag!
 - 📅 **Visualizador da Agenda de Outubro:** Filtros rápidos por semana e tipo de evento.
@@ -173,7 +176,7 @@ Este repositório e suas páginas foram desenvolvidos com o mais estrito rigor �
 *Entusiasta do ecossistema de código aberto, inteligência artificial e tecnologias seguras de altíssimo desempenho para desenvolvedores.*
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Venelouis-10201d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venelouis)
-[![Rullst Framework](https://img.shields.io/badge/Rust-Rullst_Framework_🦀-ce422b?style=for-the-badge&logo=rust&logoColor=white)](https://rullst.win)
+[![Rullst Framework](https://img.shields.io/badge/Recomenda-Rullst_Framework_🦀-ce422b?style=for-the-badge&logo=rust&logoColor=white)](https://rullst.win)
 
 </div>
 
