@@ -173,7 +173,7 @@ Este repositório e suas páginas foram desenvolvidos com o mais estrito rigor �
 *Entusiasta do ecossistema de código aberto, inteligência artificial e tecnologias seguras de altíssimo desempenho para desenvolvedores.*
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Venelouis-10201d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venelouis)
-[![Rullst Framework](https://img.shields.io/badge/Recomenda-Rullst_Framework_🦀-ce422b?style=for-the-badge&logo=rust&logoColor=white)](https://rullst.win)
+[![Rullst Framework](https://img.shields.io/badge/Rust-Rullst_Framework_🦀-ce422b?style=for-the-badge&logo=rust&logoColor=white)](https://rullst.win)
 
 </div>
 
