@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Hacktoberfest 2026 • A IA Pertence a Todos | Guia Oficial Brasil</title>
+  <meta name="title" content="Hacktoberfest 2026 • A IA Pertence a Todos | Guia Oficial Brasil">
+  <meta name="description" content="Guia completo e site oficial em português do Hacktoberfest 2026: saiba o que é, as novas regras sem PRs, a agenda de outubro, a caderneta de adesivos e os Fests presenciais.">
+  <meta name="keywords" content="Hacktoberfest 2026, Hacktoberfest Brasil, open source AI, MLH, DEV.to, DigitalOcean, agenda hacktoberfest, como participar, fests, sticker pack">
+  <meta name="author" content="Comunidade Open Source Brasil">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hacktoberfest 2026 • AI Belongs to Everyone">
+  <meta property="og:description" content="300+ Fests presenciais e evento global online. Aprenda e construa com IA Open-Source neste mês de outubro.">
+  <meta property="og:image" content="assets/hero-banner.jpg">
+
+  <link rel="icon" href="https://hacktoberfest.com/favicon-32.png" type="image/png">
+
+  <!-- Google Fonts: Barlow Semi Condensed, Inter & Martian Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700;800&family=Inter:wght@400;500;600;700;800&family=Martian+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- Faixa Superior de Aviso Oficial e Star -->
+  <aside class="hf-official-notice-bar" role="region" aria-label="Aviso de Fonte Oficial e Apoio Comunitário">
+    <div class="hf-shell notice-inner">
+      <div class="notice-text">
+        <span class="notice-badge">ℹ️ FONTE OFICIAL</span>
+        <span>Este portal é um guia independente em português <strong>100% baseado e sincronizado com o site oficial</strong> (<a href="https://hacktoberfest.com" target="_blank" rel="noopener noreferrer">hacktoberfest.com</a>). Para resgate oficial de recompensas e login MyMLH, utilize sempre os canais oficiais.</span>
+      </div>
+      <div class="notice-actions">
+        <a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer" class="btn-github-star" title="Deixe uma estrela no repositório GitHub">
+          <span class="star-icon">⭐</span> Star no GitHub <span class="star-pill">Repo</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header Superior -->
+  <header class="hf-header" id="navbar">
+    <div class="hf-shell header-inner">
+      <a href="#top" class="hf-brand" aria-label="Hacktoberfest 2026 Início">
+        <div class="brand-logo-wrap">
+          <span class="hf-badge-logo">HF26</span>
+          <div class="brand-titles">
+            <span class="brand-name">HACKTOBERFEST <span class="brand-year">2026</span></span>
+            <span class="brand-tag">AI BELONGS TO EVERYONE</span>
+          </div>
+        </div>
+      </a>
+
+      <nav class="hf-nav-links" id="desktop-nav" aria-label="Navegação Principal">
+        <a href="#sobre" class="hf-nav-item">Sobre</a>
+        <a href="#mudancas-2026" class="hf-nav-item nav-accent-orange">O que Mudou?</a>
+        <a href="#agenda" class="hf-nav-item">Agenda 2026</a>
+        <a href="#adesivos" class="hf-nav-item nav-accent-sky">Caderneta de Adesivos</a>
+        <a href="#fests" class="hf-nav-item">Fests Presenciais</a>
+        <a href="#como-participar" class="hf-nav-item">Como Participar</a>
+        <a href="#faq" class="hf-nav-item">FAQ</a>
+      </nav>
+
+      <div class="header-cta-box">
+        <a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-star" id="btn-header-star" title="Apoie o projeto com uma estrela">
+          <span>⭐ Star</span>
+        </a>
+        <a href="https://hacktoberfest.com/my/" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-primary" id="btn-header-join">
+          <span>My Hacktoberfest ↗</span>
+        </a>
+        <button class="hf-mobile-toggle" id="btn-mobile-menu" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Mobile Drawer -->
+  <div class="hf-mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <nav class="mobile-nav-list">
+      <a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-star w-full text-center">⭐ Deixar uma Estrela no GitHub</a>
+      <a href="#sobre" class="mobile-link">Sobre o Evento</a>
+      <a href="#mudancas-2026" class="mobile-link">🚨 A Grande Mudança em 2026</a>
+      <a href="#agenda" class="mobile-link">Agenda de Outubro</a>
+      <a href="#adesivos" class="mobile-link">Caderneta de 24 Adesivos</a>
+      <a href="#fests" class="mobile-link">Fests Presenciais (300+ Eventos)</a>
+      <a href="#como-participar" class="mobile-link">Guia Passo a Passo</a>
+      <a href="#faq" class="mobile-link">Dúvidas Frequentes (FAQ)</a>
+      <a href="termos-de-uso.html" class="mobile-link">Termos de Uso</a>
+      <a href="politica-de-privacidade.html" class="mobile-link">Política de Privacidade (LGPD/CCPA)</a>
+      <a href="https://hacktoberfest.com" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-primary w-full text-center">Acessar Site Oficial</a>
+    </nav>
+  </div>
+
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hf-hero">
+      <div class="hf-shell hero-grid">
+        <div class="hero-text-block">
+          <!-- 4 Quadrados Característicos da Identidade 2026 -->
+          <div class="hf-squares-accent" aria-hidden="true">
+            <span class="sq-orange"></span>
+            <span class="sq-sky"></span>
+            <span class="sq-ochre"></span>
+            <span class="sq-pink"></span>
+          </div>
+
+          <div class="hero-eyebrow">OUTUBRO DE 2026 • PRESENCIAL & ONLINE • 100% GRATUITO</div>
+
+          <h1 class="hero-heading">
+            A Inteligência Artificial <em>Pertence a Todos.</em>
+          </h1>
+
+          <p class="hero-lead">
+            O <strong>Hacktoberfest 2026</strong> se reinventou! Neste ano, a maior celebração global do código aberto foca em aprender e construir com <strong>modelos de pesos abertos, agentes e ferramentas de IA open source</strong>. Mais de 300 Fests presenciais e uma programação online completa durante todo o mês.
+          </p>
+
+          <div class="hero-partners-pill">
+            <span class="partner-label">Liderado por:</span>
+            <strong class="partner-name">MLH (Major League Hacking)</strong>
+            <span class="partner-sep">×</span>
+            <strong class="partner-name">DEV (dev.to)</strong>
+            <span class="partner-sep">•</span>
+            <span class="partner-label">Apresentado por:</span>
+            <strong class="partner-name">DigitalOcean</strong>
+          </div>
+
+          <!-- Contador Regressivo para Outubro -->
+          <div class="hf-countdown-box" role="region" aria-label="Contagem regressiva do evento">
+            <div class="countdown-caption">
+              <span>⏱️ HACKTOBERFEST 2026 • MÊS DO OPEN SOURCE & IA</span>
+            </div>
+            <div class="countdown-numbers">
+              <div class="countdown-segment">
+                <span class="cd-num" id="cd-days">--</span>
+                <span class="cd-label">DIAS</span>
+              </div>
+              <span class="cd-colon">:</span>
+              <div class="countdown-segment">
+                <span class="cd-num" id="cd-hours">--</span>
+                <span class="cd-label">HORAS</span>
+              </div>
+              <span class="cd-colon">:</span>
+              <div class="countdown-segment">
+                <span class="cd-num" id="cd-minutes">--</span>
+                <span class="cd-label">MIN</span>
+              </div>
+              <span class="cd-colon">:</span>
+              <div class="countdown-segment">
+                <span class="cd-num" id="cd-seconds">--</span>
+                <span class="cd-label">SEG</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#agenda" class="hf-btn hf-btn-primary" id="btn-hero-schedule">
+              <span>📅 Ver Agenda de Outubro</span>
+            </a>
+            <a href="#adesivos" class="hf-btn hf-btn-secondary" id="btn-hero-stickers">
+              <span>🏷️ Explorar Caderneta de Adesivos</span>
+            </a>
+            <a href="#fests" class="hf-btn hf-btn-outline" id="btn-hero-fests">
+              <span>📍 Encontrar um Fest</span>
+            </a>
+          </div>
+
+          <!-- Card de Apoio Comunitário / GitHub Star -->
+          <div class="repo-star-callout-card" role="complementary" aria-label="Apoie o Repositório no GitHub">
+            <div class="star-callout-content">
+              <span class="star-callout-title">⭐ Gostou do Guia em Português?</span>
+              <p class="star-callout-desc">
+                Este projeto é 100% código aberto! Deixe uma estrela no repositório GitHub para fortalecer a comunidade brasileira e ajudar outros desenvolvedores a descobrirem este portal.
+              </p>
+            </div>
+            <a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-star" id="btn-hero-star">
+              <span>⭐ Dar Star no GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-block">
+          <div class="hero-frame">
+            <img src="assets/hero-banner.jpg" alt="Banner oficial comemorativo do Hacktoberfest 2026 com robôs, desenvolvedores e IA" class="hero-banner-img" loading="eager">
+            <div class="hero-frame-footer">
+              <span class="frame-tag">OPEN SOURCE AI COMMUNITY</span>
+              <span class="frame-sub">Aprenda, crie projetos e receba adesivos na sua casa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Destaque: A Grande Mudança de 2026 -->
+    <section class="hf-section section-alert-paper" id="mudancas-2026">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">UM NOVO CAPÍTULO HISTÓRICO</p>
+          <h2 class="section-heading">O Que Mudou em 2026? <em>Adeus aos PRs com Spam!</em></h2>
+          <p class="section-copy">
+            Se você participou de edições anteriores, preste muita atenção nesta mudança fundamental decidida pelos organizadores:
+          </p>
+        </div>
+
+        <div class="changes-split-card">
+          <div class="card-column old-way">
+            <div class="card-column-badge badge-red">Como Era Antes (2014 - 2025)</div>
+            <h3 class="column-title">4 Pull Requests no GitHub</h3>
+            <p class="column-desc">
+              O participante precisava abrir 4 PRs aprovados para ganhar uma camiseta. No entanto, com ferramentas automáticas de IA, muitos mantenedores começaram a receber uma enchente avassaladora de PRs de spam e baixa qualidade, gerando exaustão e sobrecarga na comunidade.
+            </p>
+            <ul class="column-list">
+              <li>❌ Foco na quantidade de PRs em vez de aprendizado</li>
+              <li>❌ Sobrecarga severa dos mantenedores voluntários</li>
+              <li>❌ Spams de correções de pontuação ou formatação</li>
+            </ul>
+          </div>
+
+          <div class="card-divider-vs">
+            <span>VS</span>
+          </div>
+
+          <div class="card-column new-way">
+            <div class="card-column-badge badge-green">Novo Formato 2026 (Atual)</div>
+            <h3 class="column-title">Aprender & Construir com IA Open-Source</h3>
+            <p class="column-desc">
+              <strong>Pull Requests NÃO contam mais para ganhar recompensas!</strong> O Hacktoberfest 2026 agora premia a participação ativa em workshops, Global Hack Week, desafios de IA no DEV.to e presença em Fests locais. O código aberto continua livre para você contribuir, mas sem a pressão de metas de PR.
+            </p>
+            <ul class="column-list">
+              <li>✅ Foco real em modelos de pesos abertos e agentes de IA</li>
+              <li>✅ Sem incentivo para spams em repositórios alheios</li>
+              <li>✅ Ganhe adesivos reais entregues em casa completando atividades educativas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Sobre o Hacktoberfest -->
+    <section class="hf-section" id="sobre">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">SOBRE O EVENTO</p>
+          <h2 class="section-heading">Da Primeira Edição à <em>Revolução da IA Aberta</em></h2>
+          <p class="section-copy">
+            Conheça os três pilares que tornam o Hacktoberfest 2026 a maior experiência colaborativa de desenvolvedores do planeta.
+          </p>
+        </div>
+
+        <div class="hf-grid-3">
+          <div class="hf-card">
+            <div class="card-icon">🤖</div>
+            <h3 class="card-title">Modelos Abertos (Open Weights)</h3>
+            <p class="card-text">
+              Acreditamos que a inteligência artificial não pode ficar concentrada apenas em monopólios fechados. Durante todo o mês, você aprenderá a rodar, customizar e estender modelos abertos (como Gemma, Llama e ferramentas open-source).
+            </p>
+          </div>
+
+          <div class="hf-card">
+            <div class="card-icon">🌍</div>
+            <h3 class="card-title">300+ Fests pelo Mundo</h3>
+            <p class="card-text">
+              Além de toda a programação virtual, comunidades locais ao redor do mundo promovem encontros presenciais de um dia: os <strong>Hack Days</strong> (mini-hackathons financiados com prêmios) e os <strong>Meetups</strong> (palestras e networking).
+            </p>
+          </div>
+
+          <div class="hf-card">
+            <div class="card-icon">📬</div>
+            <h3 class="card-title">Adesivos Entregues na Sua Porta</h3>
+            <p class="card-text">
+              Completou os requisitos da sua Caderneta de Adesivos online? A organização da MLH enviará gratuitamente um <strong>pacote com adesivos físicos oficiais</strong> direto para o seu endereço em qualquer lugar do mundo!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Agenda de Outubro (/schedule/) -->
+    <section class="hf-section section-forest" id="agenda">
+      <div class="hf-shell">
+        <div class="section-intro text-light">
+          <p class="hf-eyebrow eyebrow-sky">AGENDA OFICIAL DE OUTUBRO</p>
+          <h2 class="section-heading heading-light">Um Mês Repleto de <em>Coisas para Participar.</em></h2>
+          <p class="section-copy copy-light">
+            Transmissões ao vivo, Global Hack Week, semanas de desafios no DEV.to e oficinas práticas com especialistas. Filtre a programação abaixo:
+          </p>
+        </div>
+
+        <!-- Filtros da Agenda -->
+        <div class="schedule-filters-bar">
+          <button class="filter-tab active" data-filter="all">Toda a Agenda</button>
+          <button class="filter-tab" data-filter="ceremony">Cerimônias</button>
+          <button class="filter-tab" data-filter="dev">DEV Challenges</button>
+          <button class="filter-tab" data-filter="ghw">Global Hack Week</button>
+          <button class="filter-tab" data-filter="workshops">Workshops & Lives</button>
+        </div>
+
+        <!-- Lista da Agenda Interativa -->
+        <div class="schedule-timeline" id="schedule-container">
+          <!-- Renderizado dinamicamente via JS -->
+        </div>
+
+        <div class="schedule-footer-cta">
+          <p>Quer conferir todas as atualizações no fuso horário local oficial?</p>
+          <a href="https://hacktoberfest.com/schedule/" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-secondary">
+            Acessar Agenda Oficial no hacktoberfest.com ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: A Caderneta de 24 Adesivos (Sticker Book) -->
+    <section class="hf-section" id="adesivos">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">CADERNETA DE ADESIVOS</p>
+          <h2 class="section-heading">Colecione Adesivos Virtuais. <em>Ganhe Prêmios Reais.</em></h2>
+          <p class="section-copy">
+            São <strong>24 adesivos virtuais</strong> que você pode colecionar durante o mês. Experimente nosso simulador interativo abaixo clicando nos adesivos para ver seu progresso de recompensas:
+          </p>
+        </div>
+
+        <!-- Simulador de Progresso de Adesivos -->
+        <div class="sticker-tracker-card">
+          <div class="tracker-header">
+            <div class="tracker-info">
+              <span class="tracker-title">SEU STICKER BOOK (SIMULADOR)</span>
+              <span class="tracker-count" id="tracker-count">Adesivos coletados: <strong>0</strong> de 24</span>
+            </div>
+            <button class="hf-btn hf-btn-sm hf-btn-outline" id="btn-reset-stickers">Resetar Seleção</button>
+          </div>
+
+          <div class="progress-bar-wrap">
+            <div class="progress-bar-fill" id="progress-fill" style="width: 0%;"></div>
+            <!-- Marcadores de recompensa -->
+            <div class="milestone-marker m-3" title="3 Adesivos: Pacote Físico no Correio">
+              <span class="marker-dot"></span>
+              <span class="marker-label">3 (IRL Pack)</span>
+            </div>
+            <div class="milestone-marker m-10" title="10 Adesivos: Holográfico Bônus">
+              <span class="marker-dot"></span>
+              <span class="marker-label">10 (Holo)</span>
+            </div>
+            <div class="milestone-marker m-15" title="15 Adesivos: Completionist!">
+              <span class="marker-dot"></span>
+              <span class="marker-label">15 (Camisetas/Arduino)</span>
+            </div>
+          </div>
+
+          <!-- Mensagem dinâmica de recompensa desbloqueada -->
+          <div class="unlocked-reward-banner" id="reward-banner">
+            <span class="reward-icon">🎁</span>
+            <span class="reward-text">Clique nos adesivos abaixo para simular as atividades que você pretende realizar!</span>
+          </div>
+        </div>
+
+        <!-- Categorias e Grade de Adesivos -->
+        <div class="stickers-categories-container" id="stickers-container">
+          <!-- Renderizado dinamicamente via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Fests Presenciais -->
+    <section class="hf-section section-paper" id="fests">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">EVENTOS PRESENCIAIS</p>
+          <h2 class="section-heading">Prefere Estar numa Sala? <em>Encontre um Fest.</em></h2>
+          <p class="section-copy">
+            Centenas de Fests acontecem presencialmente ao longo de outubro, organizados por universidades, comunidades tech e grupos de desenvolvedores ao redor do mundo.
+          </p>
+        </div>
+
+        <div class="fests-comparison-grid">
+          <div class="fest-type-card hackday">
+            <div class="fest-type-badge">FORMATO 01</div>
+            <h3 class="fest-type-title">💻 Hack Day (Mini-Hackathon)</h3>
+            <p class="fest-type-desc">
+              Um dia inteiro de mãos no teclado! Os participantes formam equipes, constroem projetos com modelos ou ferramentas de IA open source e apresentam uma demonstração ao final do dia.
+            </p>
+            <ul class="fest-perks-list">
+              <li>🏆 Competição amigável e bancas de jurados locais</li>
+              <li>🎁 Kits de prêmios MLH + DEV no local para os vencedores</li>
+              <li>🍕 Geralmente conta com refeições/lanches inclusos</li>
+              <li>⚡ Financiamento oficial fornecido pela MLH para custos do evento</li>
+            </ul>
+          </div>
+
+          <div class="fest-type-card meetup">
+            <div class="fest-type-badge">FORMATO 02</div>
+            <h3 class="fest-type-title">🤝 Meetup (Encontro Comunitário)</h3>
+            <p class="fest-type-desc">
+              Um encontro mais leve e focado em conexão. Apresenta palestras curtas, painéis de discussão e momentos dedicados para trocar experiências sobre desenvolvimento e IA.
+            </p>
+            <ul class="fest-perks-list">
+              <li>🎤 Palestras com desenvolvedores e entusiastas locais</li>
+              <li>☕ Café, networking e conversas enriquecedoras</li>
+              <li>👕 Distribuição de brindes e adesivos enquanto durarem os estoques</li>
+              <li>💡 Sem obrigatoriedade de entregar código ou projeto</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Callout: Host a Fest -->
+        <div class="host-callout-box">
+          <div class="host-callout-content">
+            <h3 class="host-title">Não há nenhum Fest na sua cidade? Essa é a sua deixa!</h3>
+            <p class="host-desc">
+              Cada Fest existe porque alguém da comunidade decidiu organizar. Qualquer pessoa pode se candidatar para sediar um Hack Day ou Meetup na sua faculdade, empresa ou espaço comunitário. A MLH e o DEV fornecem adesivos, camisetas, guia de atividades e apoio.
+            </p>
+            <a href="https://hacktoberfest.com/host/" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-primary">
+              Inscrever-se para Sediar um Fest ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Passo a Passo de Inscrição -->
+    <section class="hf-section" id="como-participar">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">GUIA DO PARTICIPANTE</p>
+          <h2 class="section-heading">Como Participar do <em>Hacktoberfest 2026</em></h2>
+          <p class="section-copy">
+            Siga este passo a passo simples para iniciar sua jornada e garantir suas recompensas:
+          </p>
+        </div>
+
+        <div class="steps-flow-grid">
+          <div class="flow-step-card">
+            <span class="step-num-circle">01</span>
+            <h3 class="step-name">Crie sua Conta MyMLH</h3>
+            <p class="step-body">
+              Acesse <a href="https://hacktoberfest.com" target="_blank" rel="noopener noreferrer">hacktoberfest.com</a> e faça login no <strong>My Hacktoberfest</strong>. O cadastro é gratuito e leva menos de um minuto.
+            </p>
+          </div>
+
+          <div class="flow-step-card">
+            <span class="step-num-circle">02</span>
+            <h3 class="step-name">Cadastre seu Endereço</h3>
+            <p class="step-body">
+              Insira o endereço postal onde deseja receber seu pacote de adesivos. Ao cadastrar o endereço, você já garante seus primeiros **2 adesivos virtuais**!
+            </p>
+          </div>
+
+          <div class="flow-step-card">
+            <span class="step-num-circle">03</span>
+            <h3 class="step-name">Conecte sua Conta DEV</h3>
+            <p class="step-body">
+              Vincule sua conta do <a href="https://dev.to" target="_blank" rel="noopener noreferrer">dev.to</a> para habilitar o envio de artigos, badges especiais e créditos nos DEV Challenges semanais.
+            </p>
+          </div>
+
+          <div class="flow-step-card">
+            <span class="step-num-circle">04</span>
+            <h3 class="step-name">Participe Online ou Presencial</h3>
+            <p class="step-body">
+              Assista a livestreams, participe da Global Hack Week, submeta seu projeto de IA no DEV ou inscreva-se em um Fest presencial na sua região.
+            </p>
+          </div>
+
+          <div class="flow-step-card">
+            <span class="step-num-circle">05</span>
+            <h3 class="step-name">Junte 3+ Adesivos e Receba Swag</h3>
+            <p class="step-body">
+              Com apenas 3 adesivos virtuais carimbados, seu pacote de adesivos físicos é enviado pelo correio. Ao atingir 15, você se torna Completionist e concorre a camisetas e placas Arduino!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: FAQ Accordion -->
+    <section class="hf-section section-paper" id="faq">
+      <div class="hf-shell">
+        <div class="section-intro">
+          <p class="hf-eyebrow">DÚVIDAS FREQUENTES</p>
+          <h2 class="section-heading">Tudo o Que Você Precisa <em>Saber.</em></h2>
+          <p class="section-copy">
+            Respostas oficiais para as perguntas mais comuns sobre o novo formato do Hacktoberfest:
+          </p>
+        </div>
+
+        <div class="faq-container" id="faq-list">
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">O que é o Hacktoberfest 2026?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>O Hacktoberfest é uma celebração de um mês inteiro dedicada ao código aberto durante outubro. Em 2026, o evento foca no aprendizado e criação com inteligência artificial open source e modelos de pesos abertos, gerenciado pela Major League Hacking (MLH) e pela DEV, em parceria contínua com a DigitalOcean.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Ainda preciso abrir Pull Requests para ganhar brindes?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p><strong>Não.</strong> Pull requests e merge requests não contam mais para ganhar recompensas. O evento ouviu o feedback dos mantenedores de código aberto para evitar o flood de PRs automáticos com spam gerados por bots. As recompensas agora são conquistadas ao completar desafios práticos, workshops e eventos comunitários.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Como eu ganho os adesivos e o kit físico?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>Basta acessar o My Hacktoberfest, cadastrar seu endereço postal (o que já garante 2 adesivos) e completar <strong>apenas mais 1 desafio</strong> (como assistir a uma live ou responder à pesquisa). Ao atingir 3 adesivos virtuais, seu kit físico de adesivos oficiais é despachado gratuitamente para o seu endereço!</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Quem pode participar? Há idade mínima?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>O evento é aberto a qualquer pessoa a partir de 13 anos em todo o mundo. Não importa se você começou a programar ontem ou se já tem anos de experiência, os desafios têm níveis acessíveis para todos.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">É gratuito participar de um Fest presencial?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>Sim! A esmagadora maioria dos Fests, tanto Hack Days quanto Meetups, são 100% gratuitos para os participantes.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Como funcionam os DEV Challenges?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>Durante outubro, o DEV.to lança desafios semanais com foco em construir aplicações e tutoriais com modelos de IA open source. Os melhores projetos concorrem a prêmios em dinheiro (cash prizes), créditos e badges no perfil.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Quando meus adesivos físicos vão chegar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>Os pacotes de adesivos e prêmios físicos são despachados após o término de outubro, levando normalmente de 8 a 12 semanas para serem entregues na sua residência pela MLH.</p>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <button class="faq-toggle" aria-expanded="false">
+              <span class="faq-q">Ainda posso contribuir com código aberto tradicional?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-collapse">
+              <p>Com certeza! O código aberto vive 365 dias por ano. Você é muito bem-vindo para continuar contribuindo com projetos open source que você utiliza e admira, sabendo que isso fortalece o ecossistema livre.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Destaque: Criador Venelouis & Recomendação Rullst Framework -->
+    <section class="hf-creator-showcase-section" id="sobre-criador">
+      <div class="hf-shell">
+        <div class="rullst-showcase-card">
+          
+          <!-- Coluna do Autor Venelouis -->
+          <div class="showcase-author-col">
+            <span class="author-eyebrow">❤️ DESENVOLVIDO COM AMOR POR</span>
+            <h3 class="author-title">
+              <a href="https://github.com/venelouis" target="_blank" rel="noopener noreferrer">Venelouis</a>
+            </h3>
+            <p class="author-bio">
+              Entusiasta do ecossistema de código aberto, inteligência artificial e tecnologias seguras de altíssimo desempenho para desenvolvedores.
+            </p>
+            <div class="author-cta-row">
+              <a href="https://github.com/venelouis" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-sm btn-author-gh">
+                <span>🐙 GitHub: @venelouis ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna de Recomendação: Framework Rullst -->
+          <div class="showcase-rullst-col">
+            <div class="rullst-badge-strip">
+              <span class="rullst-badge-pill">🦀 RULLST FRAMEWORK</span>
+              <span class="rullst-badge-pill pill-tag">SUPER FULL-STACK</span>
+              <span class="rullst-badge-pill pill-tag">HUMANS & AI</span>
+            </div>
+
+            <h4 class="rullst-heading">
+              📜🦀🌐 Intelligent, Secure and Effortless Super Full-Stack Framework 🌐🦀📜
+            </h4>
+
+            <blockquote class="rullst-slogan-quote">
+              "Rust for those who want to build securely and easily, but not suffer"
+            </blockquote>
+
+            <p class="rullst-manifesto">
+              🤖 <strong>The Next-Gen Paradigm: Designed for Humans & AI.</strong> Rullst is built from the ground up to be a developer-first framework, optimized for seamless AI-assisted coding and effortless human productivity.
+            </p>
+
+            <div class="rullst-actions-row">
+              <a href="https://rullst.win" target="_blank" rel="noopener noreferrer" class="hf-btn btn-rullst">
+                <span>🚀 Conhecer Rullst: rullst.win ↗</span>
+              </a>
+              <a href="https://github.com/venelouis" target="_blank" rel="noopener noreferrer" class="hf-btn hf-btn-outline">
+                <span>⭐ GitHub do Venelouis ↗</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé Oficial Estilo MLH x DEV -->
+  <footer class="hf-footer">
+    <div class="hf-shell footer-inner">
+      <div class="footer-top-row">
+        <div class="footer-col-main">
+          <div class="footer-brand">
+            <span class="hf-badge-logo">HF26</span>
+            <div class="footer-brand-title">HACKTOBERFEST 2026</div>
+          </div>
+          <p class="footer-desc">
+            Celebrando o código aberto e construindo com IA livre em outubro. Organizado por Major League Hacking (MLH) e DEV, em parceria com a DigitalOcean.
+          </p>
+          <div class="footer-badges-strip">
+            <span class="footer-badge">AI BELONGS TO EVERYONE</span>
+            <span class="footer-badge">OPEN SOURCE COMMUNITY</span>
+          </div>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4 class="footer-col-title">Navegação</h4>
+          <ul class="footer-menu">
+            <li><a href="#sobre">Sobre o Evento</a></li>
+            <li><a href="#mudancas-2026">O que Mudou em 2026</a></li>
+            <li><a href="#agenda">Agenda de Outubro</a></li>
+            <li><a href="#adesivos">Caderneta de Adesivos</a></li>
+            <li><a href="#fests">Fests Presenciais</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+            <li><a href="termos-de-uso.html">Termos de Uso</a></li>
+            <li><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4 class="footer-col-title">Links Oficiais</h4>
+          <ul class="footer-menu">
+            <li><a href="https://hacktoberfest.com" target="_blank" rel="noopener noreferrer">Hacktoberfest.com ↗</a></li>
+            <li><a href="https://hacktoberfest.com/schedule/" target="_blank" rel="noopener noreferrer">Schedule Oficial ↗</a></li>
+            <li><a href="https://hacktoberfest.com/fests/" target="_blank" rel="noopener noreferrer">Encontrar um Fest ↗</a></li>
+            <li><a href="https://hacktoberfest.com/host/" target="_blank" rel="noopener noreferrer">Sediar um Fest ↗</a></li>
+            <li><a href="https://hacktoberfest.com/activities/" target="_blank" rel="noopener noreferrer">Atividades & Stickers ↗</a></li>
+            <li><a href="https://dev.to/challenges" target="_blank" rel="noopener noreferrer">DEV Challenges ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4 class="footer-col-title">Parceiros & Código</h4>
+          <ul class="footer-menu">
+            <li><a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer" style="color: var(--hf-ochre); font-weight: 700;">⭐ Star no GitHub Repo ↗</a></li>
+            <li><a href="https://mlh.com" target="_blank" rel="noopener noreferrer">Major League Hacking ↗</a></li>
+            <li><a href="https://dev.to" target="_blank" rel="noopener noreferrer">Comunidade DEV.to ↗</a></li>
+            <li><a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer">DigitalOcean ↗</a></li>
+            <li><a href="https://discord.com/invite/mlh" target="_blank" rel="noopener noreferrer">Discord Oficial MLH ↗</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Aviso Legal e Conformidade Internacional -->
+      <div class="footer-compliance-box" style="margin-bottom: 24px; padding: 18px 22px; background: #182e29; border: 1px solid #2d4c44; border-radius: 6px; font-size: 0.82rem; color: #a6c0ba; line-height: 1.55;">
+        <strong style="color: var(--hf-ochre); display: block; margin-bottom: 4px; font-family: var(--font-mono);">⚖️ AVISO DE CONFORMIDADE LEGAL & ISENÇÃO DE RESPONSABILIDADE</strong>
+        Este portal é um projeto comunitário independente de código aberto desenvolvido com fins puramente educacionais e informativos para a comunidade lusófona. Todas as informações, datas, regras e diretrizes são integralmente baseadas e creditadas ao site oficial <a href="https://hacktoberfest.com" target="_blank" rel="noopener noreferrer" style="color: var(--hf-sky); text-decoration: underline;">hacktoberfest.com</a>. O projeto opera em estrita conformidade com a <strong>LGPD (Brasil - Lei nº 13.709/2018)</strong>, o <strong>Marco Civil da Internet (Lei nº 12.965/2014)</strong>, o <strong>CCPA/CPRA (Califórnia, EUA)</strong> e o <strong>COPPA (EUA)</strong>, bem como legislações de privacidade da América do Sul (Argentina Ley 25.326, Chile Ley 19.628 e Colômbia Ley 1581). Hacktoberfest®, DigitalOcean®, Major League Hacking (MLH)® e DEV® são marcas registradas de seus respectivos proprietários.
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="footer-copy">
+          © 2026 Hacktoberfest Brasil • Desenvolvido com amor por <a href="https://github.com/venelouis" target="_blank" rel="noopener noreferrer" style="color: var(--hf-ochre); font-weight: 700; text-decoration: underline;">Venelouis</a>, que recomenda o framework <a href="https://rullst.win" target="_blank" rel="noopener noreferrer" style="color: #FFA570; font-weight: 700; text-decoration: underline;">Rullst 🦀</a>. Guia Comunitário Open Source em Língua Portuguesa.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="termos-de-uso.html">Termos de Uso</a>
+          <span>•</span>
+          <a href="politica-de-privacidade.html">Política de Privacidade</a>
+          <span>•</span>
+          <a href="https://github.com/venelouis/hacktoberfest2026" target="_blank" rel="noopener noreferrer">⭐ GitHub Repo</a>
+          <span>•</span>
+          <a href="#top">Voltar ao Topo ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
